@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="iconifiable" type="boolean" value="true"/>
+    <Property name="maximizable" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="Mipanel" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="Mipanel" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="Mipanel">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lblAñosdeVenta" min="-2" pref="82" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblTelefono" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblRut" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblNombre" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblDireccion" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblcomuna" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblpais" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblfono" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="txtRut" max="32767" attributes="0"/>
+                      <Component id="txtNombre" pref="193" max="32767" attributes="0"/>
+                      <Component id="txtcalle" pref="193" max="32767" attributes="0"/>
+                      <Component id="txtnumero" pref="193" max="32767" attributes="0"/>
+                      <Component id="txtAños" pref="193" max="32767" attributes="0"/>
+                      <Component id="btnCrearDis" alignment="0" max="32767" attributes="0"/>
+                      <Component id="txtcomuna" max="32767" attributes="0"/>
+                      <Component id="txtpais" max="32767" attributes="0"/>
+                      <Component id="txtfono" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="26" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Component id="txtRut" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lblRut" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="txtNombre" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblNombre" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtcalle" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblDireccion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblTelefono" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtnumero" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblcomuna" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtcomuna" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblpais" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtpais" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblfono" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtfono" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtAños" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblAñosdeVenta" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Component id="btnCrearDis" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="26" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblRut">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rut"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNombre">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nombre"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDireccion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Calle"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblTelefono">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Numero"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblA&#xf1;osdeVenta">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A&#xf1;os de Venta"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtRut">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNombre">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtcalle">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtnumero">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtA&#xf1;os">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCrearDis">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Crear"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCrearDisActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblcomuna">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Comuna"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblpais">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pais"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblfono">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fono"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtcomuna">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtpais">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtfono">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

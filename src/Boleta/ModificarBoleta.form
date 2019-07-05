@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="iconifiable" type="boolean" value="true"/>
+    <Property name="maximizable" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="Mipanel" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="Mipanel" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="Mipanel">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblprecioneto" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblfechacompra" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblmetododepago" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbldistribuidora" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblhoradecompra" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblcostoiva" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblprecioconiva" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="txtfechadecompra" alignment="0" pref="135" max="32767" attributes="0"/>
+                              <Component id="txtprecioneto" alignment="0" pref="135" max="32767" attributes="0"/>
+                              <Component id="txtprecioconiva" alignment="0" pref="135" max="32767" attributes="0"/>
+                              <Component id="txtcostoiva" alignment="0" pref="135" max="32767" attributes="0"/>
+                              <Component id="txthoradecomprar" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtdistribuidor" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtmetododepago" alignment="0" pref="135" max="32767" attributes="0"/>
+                              <Component id="btnmodificar" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lblfolio" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="123" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="btnbuscar" alignment="0" min="-2" pref="135" max="-2" attributes="0"/>
+                              <Component id="txtfolio" alignment="0" min="-2" pref="135" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="26" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtfolio" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblfolio" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="btnbuscar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblprecioneto" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtprecioneto" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtprecioconiva" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblprecioconiva" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="lblcostoiva" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtcostoiva" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblfechacompra" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtfechadecompra" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblhoradecompra" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txthoradecomprar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbldistribuidora" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtdistribuidor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblmetododepago" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtmetododepago" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="btnmodificar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblfolio">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Folio"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtfolio">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnbuscar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Buscar"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtprecioneto">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtprecioconiva">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtcostoiva">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtfechadecompra">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txthoradecomprar">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtdistribuidor">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtdistribuidorActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtmetododepago">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtmetododepagoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblmetododepago">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="M&#xe9;todo de pago"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbldistribuidora">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Distribuidor involucrado"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblhoradecompra">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Hora de compra"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblfechacompra">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fecha de compra"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblcostoiva">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Costo IVA"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblprecioconiva">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Precio con IVA"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblprecioneto">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Precio neto"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnmodificar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Modificar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnmodificarActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
